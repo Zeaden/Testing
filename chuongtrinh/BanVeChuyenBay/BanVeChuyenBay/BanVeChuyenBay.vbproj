@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>7.10.3077</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D1BB2892-49E7-450F-AED0-13816AB28791}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>BanVeChuyenBay</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>BanVeChuyenBay</RootNamespace>
+    <StartupObject>BanVeChuyenBay.GiaoDienChinh</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>BanVeChuyenBay.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile />
+    <DefineConstants />
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>BanVeChuyenBay.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile />
+    <DefineConstants />
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BCDoanhThuNam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCDoanhThuThang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CBang.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CChuyenBay.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CCTChuyenBay.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDonGia.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CHangVe.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CHanhKhach.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CPhieuDatCho.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CSanBay.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CThamSo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CTinhTrangVe.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CTuyenBay.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CVeChuyenBay.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dsChuyenBay.vb">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DsSanBayTrungGian.vb">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="GiaoDienChinh.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhanLich.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhieuDatCho.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyChuyenBay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLySanBay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyTuyenBay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThayDoiQD1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThayDoiQD2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThayDoiQD3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemHangVe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemHanhKhach.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemSanBay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemTuyenBay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TraCuuChuyenBay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VeChuyenBay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Content Include="dsChuyenBay.xsd" />
+    <Content Include="DsSanBayTrungGian.xsd" />
+    <EmbeddedResource Include="BCDoanhThuNam.resx">
+      <DependentUpon>BCDoanhThuNam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCDoanhThuThang.resx">
+      <DependentUpon>BCDoanhThuThang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GiaoDienChinh.resx">
+      <DependentUpon>GiaoDienChinh.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhanLich.resx">
+      <DependentUpon>NhanLich.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhieuDatCho.resx">
+      <DependentUpon>PhieuDatCho.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyChuyenBay.resx">
+      <DependentUpon>QuanLyChuyenBay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLySanBay.resx">
+      <DependentUpon>QuanLySanBay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyTuyenBay.resx">
+      <DependentUpon>QuanLyTuyenBay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThayDoiQD1.resx">
+      <DependentUpon>ThayDoiQD1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThayDoiQD2.resx">
+      <DependentUpon>ThayDoiQD2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThayDoiQD3.resx">
+      <DependentUpon>ThayDoiQD3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemHangVe.resx">
+      <DependentUpon>ThemHangVe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemHanhKhach.resx">
+      <DependentUpon>ThemHanhKhach.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemSanBay.resx">
+      <DependentUpon>ThemSanBay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemTuyenBay.resx">
+      <DependentUpon>ThemTuyenBay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TraCuuChuyenBay.resx">
+      <DependentUpon>TraCuuChuyenBay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VeChuyenBay.resx">
+      <DependentUpon>VeChuyenBay.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="dsChuyenBay.xsx">
+      <DependentUpon>dsChuyenBay.xsd</DependentUpon>
+    </None>
+    <None Include="DsSanBayTrungGian.xsx">
+      <DependentUpon>DsSanBayTrungGian.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

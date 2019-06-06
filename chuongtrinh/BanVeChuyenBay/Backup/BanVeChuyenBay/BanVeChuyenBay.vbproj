@@ -1,0 +1,360 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{D1BB2892-49E7-450F-AED0-13816AB28791}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "BanVeChuyenBay"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "BanVeChuyenBay"
+                StartupObject = "BanVeChuyenBay.GiaoDienChinh"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Diagnostics" />
+                <Import Namespace = "System.Windows.Forms" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BCDoanhThuNam.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BCDoanhThuNam.resx"
+                    DependentUpon = "BCDoanhThuNam.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "BCDoanhThuThang.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BCDoanhThuThang.resx"
+                    DependentUpon = "BCDoanhThuThang.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CBang.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CChuyenBay.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CCTChuyenBay.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CDonGia.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CHangVe.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CHanhKhach.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CPhieuDatCho.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CSanBay.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CThamSo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CTinhTrangVe.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CTuyenBay.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CVeChuyenBay.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "dsChuyenBay.vb"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "dsChuyenBay.xsd"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "dsChuyenBay.xsx"
+                    DependentUpon = "dsChuyenBay.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "DsSanBayTrungGian.vb"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DsSanBayTrungGian.xsd"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DsSanBayTrungGian.xsx"
+                    DependentUpon = "DsSanBayTrungGian.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "GiaoDienChinh.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GiaoDienChinh.resx"
+                    DependentUpon = "GiaoDienChinh.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NhanLich.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NhanLich.resx"
+                    DependentUpon = "NhanLich.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PhieuDatCho.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PhieuDatCho.resx"
+                    DependentUpon = "PhieuDatCho.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "QuanLyChuyenBay.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "QuanLyChuyenBay.resx"
+                    DependentUpon = "QuanLyChuyenBay.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "QuanLySanBay.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "QuanLySanBay.resx"
+                    DependentUpon = "QuanLySanBay.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "QuanLyTuyenBay.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "QuanLyTuyenBay.resx"
+                    DependentUpon = "QuanLyTuyenBay.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ThayDoiQD1.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ThayDoiQD1.resx"
+                    DependentUpon = "ThayDoiQD1.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ThayDoiQD2.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ThayDoiQD2.resx"
+                    DependentUpon = "ThayDoiQD2.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ThayDoiQD3.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ThayDoiQD3.resx"
+                    DependentUpon = "ThayDoiQD3.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ThemHangVe.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ThemHangVe.resx"
+                    DependentUpon = "ThemHangVe.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ThemHanhKhach.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ThemHanhKhach.resx"
+                    DependentUpon = "ThemHanhKhach.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ThemSanBay.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ThemSanBay.resx"
+                    DependentUpon = "ThemSanBay.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ThemTuyenBay.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ThemTuyenBay.resx"
+                    DependentUpon = "ThemTuyenBay.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "TraCuuChuyenBay.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TraCuuChuyenBay.resx"
+                    DependentUpon = "TraCuuChuyenBay.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "VeChuyenBay.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "VeChuyenBay.resx"
+                    DependentUpon = "VeChuyenBay.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

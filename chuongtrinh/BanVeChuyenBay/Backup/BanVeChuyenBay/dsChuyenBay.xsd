@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsChuyenBay" targetNamespace="http://www.tempuri.org/dsChuyenBay.xsd" xmlns:mstns="http://www.tempuri.org/dsChuyenBay.xsd" xmlns="http://www.tempuri.org/dsChuyenBay.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsChuyenBay" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="ChuyenBay">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaChuyenBay" type="xs:string" />
+              <xs:element name="MaTuyenBay" type="xs:string" minOccurs="0" />
+              <xs:element name="NgayGio" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ThoiGianBay" type="xs:short" minOccurs="0" />
+              <xs:element name="SoLuongGheHang1" type="xs:short" minOccurs="0" />
+              <xs:element name="SoLuongGheHang2" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ChuyenBay" />
+      <xs:field xpath="mstns:MaChuyenBay" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
